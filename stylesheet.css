@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana;
+}
+
+.container {
+  width: 75%;
+  margin-left: 12%;
+}
+
+a,  a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: orange;
+}
+
+a:hover {
+  font-weight: bold;
+  color: green;
+}
+
+.cover-image {
+  width: 100%;
+}
