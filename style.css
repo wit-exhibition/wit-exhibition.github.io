@@ -1,0 +1,40 @@
+html {
+	bachground-color: ;
+}
+
+body {
+	
+	width: 1000px;
+	max-width: 90%;
+	margin: 0 auto;
+	
+}
+
+#menue {
+	float: right;
+     position: relative;
+     width: 300px;
+     margin: 20px auto;
+}
+ 
+#menue ul {
+
+     position: absolute;
+     margin: 0 auto;
+     list-style: none;
+}
+ 
+#menue ul li {
+     float: left;
+     margin: 0 0 0 20px;
+}
+
+h1{
+	font family:;
+	font size: 30pt;
+	text-align: center;
+}
+
+p{
+	font-family: helvetica;
+}
