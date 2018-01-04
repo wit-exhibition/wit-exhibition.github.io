@@ -1,57 +1,77 @@
-
 html, body{
 	
 	margin: 0;
 }
 
-<<<<<<< HEAD
-/*body{
+body{
 	width: 100%;
-	
-	background: #background_startpage 50% 50% no-repeat;
-	background-size: cover;
 	margin-bottom: 5%;
-}*/
-
-#menu{
-	min-height: 40px;
-=======
-body {
-	font-family: helvetica;
-	width: 1000px;
-	max-width: 90%;
-	margin: 0 auto;
->>>>>>> cf753f795a1de8933124dff0e3a25aae297bf526
 	
+	background: url(img/background.jpg) 50% 50% no-repeat;
+	background-size: cover;
 }
+
+/*#menu{
+	min-height: 40px;
+}
+*/
+
 #title{
-	min-height: 50px;
-	margin-top: 5%;
+	/*min-height: ;*/
+	margin-top: 10%;
+	margin-bottom: 0%;
 }
 
 #body{
-
 	min-height: 300px;
-	margin-top: 3%;
-
-	box-shadow: 3px 5px 7px #ffb3ff;
-	border: 3px solid #ff66ff;
+	padding: 10px;
+	
+	background: rgba(220,220,220,0.56);
+	border-radius: 15px 0 15px 0;
+	/*
+	box-shadow: 1px 2px 3px 5px #DCDCDC;
+	*/
 }
+/*
 #footer{
 	min-height: 100px;
 	margin-top: 3%;
 }
-#header,#menu, #body, #footer{
+*/
+#title,#menu, #body, #footer{
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-h2{
+h1{
 	font-family: 'Russo One', sans-serif;
+	color: #FFFFFF;
 }
 p{
 	font-family: 'Hind Siliguri', sans-serif;
+	color: #FFFFFF;
 }
+
+#buttons{
+	margin-bottom: 2%;
+}
+
+.btn-lg{
+	width: 40%;
+	height: 20px;
+	color: #FFFFFF;
+}
+
+#ausstellungsbutton{
+	background-color: #ff66ff;
+}
+
+#aboutusbutton{
+	border: 1px solid #ff66ff;
+}
+
+
+
 @viewport{
 	zoom: 1.0;
 	width: extend-to-zoom;
@@ -61,22 +81,4 @@ p{
 	zoom: 1.0;
 }
 
-<<<<<<< HEAD
-.btn-lg{
-	hight: ;
-	width: 
-}
 
-
-
-=======
-h1{
-	font family: helvetica;
-	font size: 30pt;
-	text-align: center;
-}
-
-p{
-	font-family: helvetica;
-}
->>>>>>> cf753f795a1de8933124dff0e3a25aae297bf526
