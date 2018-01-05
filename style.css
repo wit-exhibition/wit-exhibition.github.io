@@ -1,5 +1,4 @@
 html, body{
-	
 	margin: 0;
 }
 
@@ -10,7 +9,6 @@ body{
 	background: url(img/background.jpg) 50% 50% no-repeat;
 	background-size: cover;
 }
-
 /*#menu{
 	min-height: 40px;
 }
@@ -29,8 +27,7 @@ body{
 	background: rgba(220,220,220,0.56);
 	border-radius: 15px 0 15px 0;
 	/*optional*/
-	box-shadow: 0px 25px 15px -7px rgba(220,220,220,0.3);
-	
+	box-shadow: 0px 25px 15px -7px rgba(220,220,220,0.3);	
 }
 /*
 #footer{
@@ -53,8 +50,6 @@ p{
 }
 
 .button-container{
-	
-
 }
 
 .zurAusstellungButton{
@@ -77,16 +72,6 @@ p{
 	border-radius: 5px ;
 }
 
-
-.btn-lg{
-	width: 40%;
-	height: 20px;
-	color: #FFFFFF;
-}
-
-
-
-
 @viewport{
 	zoom: 1.0;
 	width: extend-to-zoom;
@@ -95,19 +80,3 @@ p{
 	width: extend-to-zoom;
 	zoom: 1.0;
 }
-
-/* Kleine Geräte (Tablets, 768px und breiter) */
-@media (min-width: 768px){
-
-
-
-
-}
-
-/* Mittlere Geräte (Desktop-PCs, 992px und breiter) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Große Geräte (Desktop-PCs, 1200px und breiter) */
-@media (min-width: @screen-lg-min) { ... }
-
-
