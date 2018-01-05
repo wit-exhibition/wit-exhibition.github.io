@@ -28,9 +28,9 @@ body{
 	
 	background: rgba(220,220,220,0.56);
 	border-radius: 15px 0 15px 0;
-	/*
-	box-shadow: 1px 2px 3px 5px #DCDCDC;
-	*/
+	/*optional*/
+	box-shadow: 0px 25px 15px -7px rgba(220,220,220,0.3);
+	
 }
 /*
 #footer{
@@ -52,9 +52,31 @@ p{
 	color: #FFFFFF;
 }
 
-#buttons{
-	margin-bottom: 2%;
+.button-container{
+	
+
 }
+
+.zurAusstellungButton{
+	padding: 10px 30px;
+	
+	background-color: #ff66ff;
+	color: #FFFFFF;
+
+	border: solid 3px #ff66ff;
+	border-radius: 5px ;
+}
+
+.aboutUsButton{
+	padding: 10px 30px;
+	
+	background-color: rgba(0,0,0,0);
+	color: #FFFFFF;
+	
+	border: solid 3px #ff66ff;
+	border-radius: 5px ;
+}
+
 
 .btn-lg{
 	width: 40%;
@@ -62,13 +84,6 @@ p{
 	color: #FFFFFF;
 }
 
-#ausstellungsbutton{
-	background-color: #ff66ff;
-}
-
-#aboutusbutton{
-	border: 1px solid #ff66ff;
-}
 
 
 
@@ -80,5 +95,19 @@ p{
 	width: extend-to-zoom;
 	zoom: 1.0;
 }
+
+/* Kleine Geräte (Tablets, 768px und breiter) */
+@media (min-width: 768px){
+
+
+
+
+}
+
+/* Mittlere Geräte (Desktop-PCs, 992px und breiter) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Große Geräte (Desktop-PCs, 1200px und breiter) */
+@media (min-width: @screen-lg-min) { ... }
 
 
