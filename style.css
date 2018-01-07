@@ -55,6 +55,7 @@ p{
 	display: inline-flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	align-items: flex-end;
 
 }
 
@@ -63,7 +64,7 @@ p{
 	margin-right: 10px;
 	margin-bottom: 10px;
 	
-	width: 250px;
+	width: 300px;
 	
 
 	font-family: 'Oxygen Mono', monospace;
@@ -81,7 +82,7 @@ p{
 	margin-right: 10px;
 	margin-bottom: 10px;
 	
-	width: 250px;
+	width: 300px;
 
 	font-family: 'Oxygen Mono', monospace;
 	font-size: 14px;
