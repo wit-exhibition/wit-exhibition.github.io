@@ -23,6 +23,7 @@ body{
 #body{
 	min-height: 300px;
 	padding: 10px 20px;
+	margin-bottom: 70px;
 	
 	background: rgba(220,220,220,0.56);
 	border-radius: 15px 0 15px 0;
@@ -46,7 +47,7 @@ h1{
 }
 p{
 	text-align: justify;
-	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'PT Mono', monospace;
 	color: #FFFFFF;
 }
 
@@ -60,16 +61,16 @@ p{
 .zurAusstellungButton{
 	padding: 10px 30px;
 	margin-right: 10px;
-	margin-bottom: 10px;
-	width: 250px;
+	/*margin-bottom: 10px;*/
+	width: 300px;
 
-	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'Oxygen Mono', monospace;
 	font-size: 14px;
 	
-	background-color: #ff66ff;
+	background-color: #EE00EE;
 	color: #FFFFFF;
 
-	border: solid 3px #ff66ff;
+	border: solid 3px #EE00EE;
 	border-radius: 5px ;
 }
 
@@ -77,15 +78,15 @@ p{
 	padding: 10px 30px;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	width: 250px;
+	width: 300px;
 
-	font-family: 'Hind Siliguri', sans-serif;
+	font-family: 'Oxygen Mono', monospace;
 	font-size: 14px;
 	
 	background-color: rgba(0,0,0,0);
 	color: #FFFFFF;
 	
-	border: solid 3px #ff66ff;
+	border: solid 3px #EE00EE;
 	border-radius: 5px ;
 }
 
