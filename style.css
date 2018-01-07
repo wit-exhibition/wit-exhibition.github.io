@@ -60,6 +60,7 @@ p{
 .zurAusstellungButton{
 	padding: 10px 30px;
 	margin-right: 10px;
+	margin-bottom: 10px;
 	width: 250px;
 
 	font-family: 'Hind Siliguri', sans-serif;
@@ -75,6 +76,7 @@ p{
 .aboutUsButton{
 	padding: 10px 30px;
 	margin-right: 10px;
+	margin-bottom: 10px;
 	width: 250px;
 
 	font-family: 'Hind Siliguri', sans-serif;
