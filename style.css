@@ -62,7 +62,9 @@ p{
 	padding: 10px 30px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	
 	width: 300px;
+	min-width: 200px;
 
 	font-family: 'Oxygen Mono', monospace;
 	font-size: 14px;
@@ -78,7 +80,9 @@ p{
 	padding: 10px 30px;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	
 	width: 300px;
+	min-width: 200px;
 
 	font-family: 'Oxygen Mono', monospace;
 	font-size: 14px;
