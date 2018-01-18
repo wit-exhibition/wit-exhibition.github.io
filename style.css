@@ -6,8 +6,9 @@ body{
 	width: 100%;
 	margin-bottom: 5%;
 	
-	background: url(img/background.jpg) 50% 50% no-repeat;
+	background: url(img/background.jpg) 100%; /*50% 50% no-repeat;*/
 	background-size: cover;
+
 }
 /*#menu{
 	min-height: 40px;
@@ -51,6 +52,8 @@ p{
 	word-spacing: initial;  
 	font-family: 'PT Mono', monospace;
 	color: #FFFFFF;
+
+	text-decoration: none;
 }
 
 .button-container{
@@ -112,6 +115,13 @@ p{
 	background-color: #FFFFFF;
 	transform: translate(0px, -5px);
 } 
+a{
+	text-decoration: none;
+}
+.zuruecklink{
+	text-align: left;
+	margin-bottom: 5px;
+}
 
 @viewport{
 	zoom: 1.0;
