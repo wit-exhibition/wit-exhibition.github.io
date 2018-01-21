@@ -5,10 +5,17 @@ html, body{
 body{
   width: 100%;
   margin-bottom: 5%;
+  background: url(img/new-background.png) 100% 100% no-repeat;
 
-  background: url(img/new-background.png) 100%; /*50% 50% no-repeat;*/
   background-size: cover;
-
+  
+  min-height: 300px;
+  padding: 10px 20px;
+  margin-bottom: 70px;
+  /*background: rgba(220,220,220,0.56);
+  border-radius: 5px;
+  /*optional*/
+ /* box-shadow: 0px 25px 15px -7px rgba(220,220,220,0.3);*/
 }
 /*#menu{
   min-height: 40px;
@@ -21,16 +28,7 @@ body{
   margin-bottom: 0%;
 }
 
-#body{
-  min-height: 300px;
-  padding: 10px 20px;
-  margin-bottom: 70px;
-
-  /*background: rgba(220,220,220,0.56);
-  /*border-radius: 5px;
-  /*optional*/
-  /*box-shadow: 0px 25px 15px -7px rgba(220,220,220,0.3);*/
-}
+ 
 /*
 #footer{
   min-height: 100px;
@@ -61,7 +59,6 @@ p{
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-end;
-
 }
 
 .zurAusstellungButton{
@@ -70,7 +67,6 @@ p{
   margin-bottom: 10px;
 
   width: 250px;
-
 
   font-family: 'Oxygen Mono', monospace;
   font-size: 14px;
@@ -82,7 +78,7 @@ p{
   border-radius: 5px ;
 
 
-  transition: ease-in-out all 300ms;
+  transition: ease-in-out all 250ms;
 }
 
 .ueberDieAusstellungButton{
@@ -101,11 +97,11 @@ p{
   border: solid 3px #EE00EE;
   border-radius: 5px ;
 
-  transition: ease-in-out all 300ms;
+  transition: ease-in-out all 250ms;
 }
 .zurAusstellungButton:hover{
-  background-color: #f98bf0;
-  border-color: #f98bf0;
+  background-color:#8110f2;
+  border-color: #8110f2;
   transform: translate(0px, -5px);
 }
 
@@ -121,7 +117,7 @@ a{
 .zuruecklink{
 	
   float:left;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   margin-top: 10px;
   padding: 10px 30px;
  
@@ -136,7 +132,7 @@ a{
   border: solid 3px #EE00EE;
   border-radius: 5px ;
 
-  transition: ease-in-out all 300ms;
+  transition: ease-in-out all 250ms;
 }
 
 .zuruecklink:hover{
@@ -145,6 +141,21 @@ a{
   background-color: #FFFFFF;
   transform: translate(0px, -5px);
 
+}
+
+/*.contain-ueberuns,{
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}*/
+.flex-container{
+	display:flex;
+	flex-direction: column;
+}
+.projekt-bild, .ueberuns-bild{
+	float: right;
+	margin-left:5px;
+	border: solid 1px #FFFFFF; 
 }
 
 @viewport{
