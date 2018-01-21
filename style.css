@@ -104,8 +104,8 @@ p{
   transition: ease-in-out all 300ms;
 }
 .zurAusstellungButton:hover{
-  background-color: #4B52C5;
-  border-color: #4B52C5;
+  background-color: #f98bf0;
+  border-color: #f98bf0;
   transform: translate(0px, -5px);
 }
 
