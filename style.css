@@ -6,22 +6,24 @@ body{
   width: 100%;
   margin-bottom: 5%;
   background: url(img/new-background.png) 100% 100% no-repeat;
-
+ 
   background-size: cover;
   
-  min-height: 300px;
-  padding: 10px 20px;
-  margin-bottom: 70px;
-  /*background: rgba(220,220,220,0.56);
-  border-radius: 5px;
-  /*optional*/
- /* box-shadow: 0px 25px 15px -7px rgba(220,220,220,0.3);*/
 }
 /*#menu{
   min-height: 40px;
 }
 */
+#body{
+  min-height: 300px;
+  padding: 10px 20px;
+  margin-bottom: 70px;
 
+    /*background: rgba(220,220,220,0.56);
+  border-radius: 5px;
+  /*optional*/
+ /* box-shadow: 0px 25px 15px -7px rgba(220,220,220,0.3);*/
+}
 #title{
   /*min-height: ;*/
   margin-top: 10%;
@@ -100,8 +102,8 @@ p{
   transition: ease-in-out all 250ms;
 }
 .zurAusstellungButton:hover{
-  background-color:#8110f2;
-  border-color: #8110f2;
+  background-color:  #a43ad8;
+  border-color:  #a43ad8;
   transform: translate(0px, -5px);
 }
 
@@ -115,7 +117,6 @@ a{
   text-decoration: none;
 }
 .zuruecklink{
-	
   float:left;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -134,20 +135,13 @@ a{
 
   transition: ease-in-out all 250ms;
 }
-
 .zuruecklink:hover{
   color: #EE00EE;
   border-color: #FFFFFF;
   background-color: #FFFFFF;
+ 
   transform: translate(0px, -5px);
-
 }
-
-/*.contain-ueberuns,{
-	display: inline-flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-}*/
 .flex-container{
 	display:flex;
 	flex-direction: column;
@@ -165,4 +159,20 @@ a{
 @-ms-viewport{
   width: extend-to-zoom;
   zoom: 1.0;
+}
+@media only screen 
+  and (max-device-width: 414px){ 
+  /*Änderungen auf der "About us-Seite"*/
+  .projekt-bild, .ueberuns-bild{
+    float: left;
+  }
+  .projekt-container, .ueberuns-container{
+    display:flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  /*Änderungen auf der Startseite*/
+
+
 }
