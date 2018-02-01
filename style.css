@@ -8,42 +8,28 @@ body{
   background: url(img/new-background.png) no-repeat;
  
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; /* für Firefox*/
 }
+/*-----------Basis für beide Seiten-----------*/
 #body{
   min-height: 300px;
-  padding: 10px 20px;
+  min-width: 400px;
+  padding: 10px 150px;
   margin-bottom: 70px;
-
-    /*background: rgba(220,220,220,0.56);
-  border-radius: 5px;
-  /*optional*/
- /* box-shadow: 0px 25px 15px -7px rgba(220,220,220,0.3);*/
 }
 #title{
-  /*min-height: ;*/
   margin-top: 10%;
   margin-bottom: 0%;
 }
-
- 
-/*
-#footer{
-  min-height: 100px;
-  margin-top: 3%;
-}
-*/
 #title,#menu, #body, #footer{
   margin-left: 10%;
   margin-right: 10%;
 }
-
 h1{
   font-family: 'Russo One', sans-serif;
   color: #FFFFFF;
 }
 p{
-  /*text-align: justify;*/
   text-align: left;
   word-spacing: initial;
   font-family: 'PT Mono', monospace;
@@ -51,6 +37,10 @@ p{
 
   text-decoration: none;
 }
+a{
+  text-decoration: none;
+}
+/*--------------Startseite------------*/
 
 .button-container{
   display: flex;
@@ -64,7 +54,7 @@ p{
   margin-right: 10px;
   margin-bottom: 10px;
 
-  width: 250px;
+  width: 350px;
 
   font-family: 'Oxygen Mono', monospace;
   font-size: 14px;
@@ -75,7 +65,6 @@ p{
   border: solid 3px #EE00EE;
   border-radius: 5px ;
 
-
   transition: ease-in-out all 250ms;
 }
 
@@ -84,7 +73,7 @@ p{
   margin-right: 10px;
   margin-bottom: 10px;
 
-  width: 250px;
+  width: 350px;
 
   font-family: 'Oxygen Mono', monospace;
   font-size: 14px;
@@ -98,19 +87,31 @@ p{
   transition: ease-in-out all 250ms;
 }
 .zurAusstellungButton:hover{
-  background-color:  #a43ad8;
-  border-color:  #a43ad8;
+  background-color:  #FFFFFF;
+  border-color:  #FFFFFF;
+  color: #EE00EE;
   transform: translate(0px, -5px);
 }
-
 .ueberDieAusstellungButton:hover {
   color: #EE00EE;
   border-color: #FFFFFF;
   background-color: #FFFFFF;
   transform: translate(0px, -5px);
 }
-a{
-  text-decoration: none;
+.ticket-item{
+  background: url(img/coupon.png) 100% no-repeat;
+  background-size:cover;
+  height: 100px;
+}
+/*---------About us - Seite--------------*/
+
+.flex-container{
+  display:flex;
+  flex-direction: column;
+}
+.projekt-container, .ueberuns-container, .danksagung-container{
+    display:flex;
+    flex-direction: column;
 }
 .zuruecklink{
   float:left;
@@ -138,14 +139,23 @@ a{
  
   transform: translate(0px, -5px);
 }
-.flex-container{
-	display:flex;
-	flex-direction: column;
-}
-.projekt-bild, .ueberuns-bild{
-	float: right;
-	margin-left:5px;
+.projekt-bild{
+  margin: 5px;
 	border: solid 1px #FFFFFF; 
+}
+.bild-item{
+   background: url(img/ausstellungbild.png) 100% no-repeat;
+   background-size: cover;
+   background-position: center;
+   border: solid 1px #FFFFFF; 
+   height: 250px;
+}
+.links{
+  text-decoration: none;
+  color: #EE00EE;
+}
+.links:hover{
+  text-decoration: underline;
 }
 
 @viewport{
@@ -156,19 +166,28 @@ a{
   width: extend-to-zoom;
   zoom: 1.0;
 }
+
 @media only screen 
   and (max-device-width: 414px){ 
-  /*Änderungen auf der "About us-Seite"*/
-  .projekt-bild, .ueberuns-bild{
-    float: left;
-  }
-  .projekt-container, .ueberuns-container{
-    display:flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
+  #body{
+    padding: 10px 5px;
+    min-width: auto;
   }
 
-/*Änderungen auf der Startseite*/
+  /*----Änderungen auf der "About us-Seite"----*/
+  .projekt-bild{
+    float: left;
+    width: 200px;
+    height: 150px;
+  }
+  #team-item{
+    width: 200px;
+  }
+
+  /*----Änderungen auf der "Startseite"----*/
+  h1{
+    font-size: 24px;
+  }
 
 
 }
