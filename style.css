@@ -1,12 +1,12 @@
 html, body{
-  margin: 0; 
+  margin: 0;
 }
 
 body{
   width: 100%;
   margin-bottom: 5%;
   background: url(img/new-background.png) no-repeat;
- 
+
   background-size: cover;
   background-attachment: fixed; /* für Firefox*/
 }
@@ -21,14 +21,12 @@ body{
   margin-top: 10%;
   margin-bottom: 0%;
 }
-#title,#menu, #body, #footer{
-  margin-left: 10%;
-  margin-right: 10%;
-}
+
 h1{
   font-family: 'Russo One', sans-serif;
   color: #FFFFFF;
 }
+
 p{
   text-align: left;
   word-spacing: initial;
@@ -41,6 +39,19 @@ a{
   text-decoration: none;
 }
 /*--------------Startseite------------*/
+
+.startpage {
+  max-width: 350px;
+  margin:auto;
+}
+
+.startpage p {
+  margin-left: 20px;
+}
+
+.centered {
+  text-align: center;
+}
 
 .button-container{
   display: flex;
@@ -99,9 +110,10 @@ a{
   transform: translate(0px, -5px);
 }
 .ticket-item{
-  background: url(img/coupon.png) 100% no-repeat;
+  background: url(img/ticket2.png) 100% no-repeat;
   background-size:cover;
-  height: 100px;
+  width: 290px;
+  height: 178px;
 }
 /*---------About us - Seite--------------*/
 
@@ -118,7 +130,7 @@ a{
   margin-bottom: 20px;
   margin-top: 10px;
   padding: 10px 30px;
- 
+
   width: 250px;
 
   font-family: 'Oxygen Mono', monospace;
@@ -136,20 +148,25 @@ a{
   color: #EE00EE;
   border-color: #FFFFFF;
   background-color: #FFFFFF;
- 
+
   transform: translate(0px, -5px);
 }
 .projekt-bild{
   margin: 5px;
-	border: solid 1px #FFFFFF; 
+  border: solid 1px #FFFFFF;
 }
 .bild-item{
    background: url(img/ausstellungbild.png) 100% no-repeat;
    background-size: cover;
    background-position: center;
-   border: solid 1px #FFFFFF; 
+   border: solid 1px #FFFFFF;
    height: 250px;
 }
+
+#team-item {
+  width: 300px;
+}
+
 .links{
   text-decoration: none;
   color: #EE00EE;
@@ -167,8 +184,8 @@ a{
   zoom: 1.0;
 }
 
-@media only screen 
-  and (max-device-width: 414px){ 
+@media only screen
+  and (max-device-width: 414px){
   #body{
     padding: 10px 5px;
     min-width: auto;
