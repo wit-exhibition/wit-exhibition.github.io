@@ -121,7 +121,7 @@ a{
   display:flex;
   flex-direction: column;
 }
-.projekt-container, .ueberuns-container, .danksagung-container{
+.projekt-container, .ueberuns-container, .technologien-container, .danksagung-container{
     display:flex;
     flex-direction: column;
 }
