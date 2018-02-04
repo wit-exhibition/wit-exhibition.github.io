@@ -18,7 +18,7 @@ body{
   margin-bottom: 70px;
 }
 #title{
-  margin-top: 10%;
+  margin-top: 3%;
   margin-bottom: 0%;
 }
 
@@ -117,6 +117,11 @@ a{
 }
 /*---------About us - Seite--------------*/
 
+.about-us-page{
+  max-width: 700px;
+  margin:auto;
+}
+
 .flex-container{
   display:flex;
   flex-direction: column;
@@ -163,6 +168,11 @@ a{
    height: 250px;
 }
 
+.logo {
+  width: 300px;
+  padding: 15px;
+}
+
 #team-item {
   width: 300px;
 }
@@ -187,7 +197,7 @@ a{
 @media only screen
   and (max-device-width: 414px){
   #body{
-    padding: 10px 5px;
+    padding: 10px 15px;
     min-width: auto;
   }
 
