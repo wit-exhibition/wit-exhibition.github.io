@@ -120,6 +120,10 @@ a{
   margin:auto;
 }
 
+.icons {
+  width: 100%;
+}
+
 .flex-container{
   display:flex;
   flex-direction: column;
