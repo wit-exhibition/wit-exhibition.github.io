@@ -1,0 +1,229 @@
+html, body{
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  margin-bottom: 5%;
+  background: url(img/new-background.png) no-repeat;
+
+  background-size: cover;
+  background-attachment: fixed; /* für Firefox*/
+}
+/*-----------Basis für beide Seiten-----------*/
+#body{
+  min-height: 300px;
+  min-width: 400px;
+  padding: 10px 150px;
+  margin-bottom: 70px;
+}
+#title{
+  margin-top: 3%;
+}
+
+h1{
+  font-family: 'Russo One', sans-serif;
+  color: #FFFFFF;
+}
+
+p{
+  text-align: left;
+  font-family: 'PT Mono', monospace;
+  color: #FFFFFF;
+
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+/*--------------Startseite------------*/
+
+.startpage {
+  max-width: 350px;
+  margin:auto;
+}
+
+.startpage p {
+  margin-left: 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.zurAusstellungButton{
+  padding: 10px 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  width: 350px;
+
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 14px;
+
+  background-color: #EE00EE;
+  color: #FFFFFF;
+
+  border: solid 3px #EE00EE;
+  border-radius: 5px ;
+
+  transition: ease-in-out all 250ms;
+}
+
+.ueberDieAusstellungButton{
+  padding: 10px 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  width: 350px;
+
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 14px;
+
+  background-color: rgba(0,0,0,0);
+  color: #FFFFFF;
+
+  border: solid 3px #EE00EE;
+  border-radius: 5px;
+
+  transition: ease-in-out all 250ms;
+}
+.zurAusstellungButton:hover{
+  background-color:  #FFFFFF;
+  border-color:  #FFFFFF;
+  color: #EE00EE;
+  transform: translate(0px, -5px);
+}
+.ueberDieAusstellungButton:hover {
+  color: #EE00EE;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+  transform: translate(0px, -5px);
+}
+.ticket-item{
+  background: url(img/ticket2.png) 100% no-repeat;
+  background-size:cover;
+  width: 290px;
+  height: 178px;
+}
+/*---------About us - Seite--------------*/
+
+.about-us-page{
+  max-width: 700px;
+  margin:auto;
+}
+
+.icons {
+  width: 100%;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction: column;
+}
+.projekt-container, .ueberuns-container, .technologien-container, .danksagung-container{
+    display:flex;
+    flex-direction: column;
+}
+.zuruecklink{
+  float:left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px 30px;
+
+  width: 250px;
+
+  font-family: 'Oxygen Mono', monospace;
+  font-size: 12px;
+
+  background-color: rgba(0,0,0,0);
+  color: #FFFFFF;
+
+  border: solid 3px #EE00EE;
+  border-radius: 5px ;
+
+  transition: ease-in-out all 250ms;
+}
+.zuruecklink:hover{
+  color: #EE00EE;
+  border-color: #FFFFFF;
+  background-color: #FFFFFF;
+
+  transform: translate(0px, -5px);
+}
+.projekt-bild{
+  margin: 5px;
+  border: solid 1px #FFFFFF;
+}
+.bild-item{
+   background: url(img/ausstellungbild.png) 100% no-repeat;
+   background-size: cover;
+   background-position: center;
+   border: solid 1px #FFFFFF;
+   height: 250px;
+}
+
+.logo {
+  width: 300px;
+  padding: 15px;
+}
+
+#team-item {
+  width: 300px;
+}
+
+.links{
+  text-decoration: none;
+  color: #EE00EE;
+}
+.links:hover{
+  text-decoration: underline;
+}
+
+@viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+@media only screen
+  and (max-device-width: 414px){
+  #body{
+    padding: 10px 15px;
+    min-width: auto;
+  }
+
+  /*----Änderungen auf der "About us-Seite"----*/
+  .projekt-bild{
+    float: left;
+    width: 200px;
+    height: 150px;
+  }
+  #team-item{
+    width: 200px;
+  }
+
+  .logo {
+    width: 200px;
+    padding: 15px;
+  }
+
+  .startpage p {
+    margin-left: 0px;
+  }
+
+  /*----Änderungen auf der "Startseite"----*/
+  h1{
+    font-size: 24px;
+  }
+}
